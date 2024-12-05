@@ -1,0 +1,69 @@
+Google Cloud Build:
+==================
+-> Google Cloud Build is a fully managed continuous integration and continuous delivery (CI/CD) platform provided by Google Cloud.
+-> It automates the process of building, testing, and deploying applications or services in the cloud.
+
+ Google Cloud Build is a tool from Google Cloud that helps automate the process of:
+
+-> Building: Turning your source code into ready-to-use files (like apps, Docker images, or websites).
+
+-> Testing: Checking if your code works as expected (e.g., running tests).
+
+-> Deploying: Sending your code to servers or services (like Cloud Run, Kubernetes, or App Engine) so users can access it.
+
+=============
+Key Points:
+=============
+
+-> It uses temporary machines to do the work.
+
+-> You tell it what to do in a simple file (called cloudbuild.yaml).
+
+-> It works with code stored in places like GitHub or Google Cloud.
+
+-> The results (like Docker images or app files) can be saved in Google Cloud services like Container Registry or Cloud Storage.
+
+==================
+Example Use:
+==================
+
+-> Imagine you're working on a website:
+
+-> You push your code to GitHub.
+
+-> Cloud Build gets triggered automatically.
+
+-> It builds your website, runs tests, and uploads the final version to a storage bucket or a server.
+
+=============================================================================================================
+
+-> Cloud Build saves time by automating repetitive tasks, 
+-> so you can focus on writing code instead of worrying about how to get it ready for use.
+
+===================================================================================================================
+
+Googel Build system vs Jenkins:
+--------------------------------
+
+-> Not exactly. Google Cloud Build and Jenkins both serve as build systems for automating CI/CD pipelines, but they are distinct tools.
+
+
+Google Cloud Build:
+===================
+
+-> A fully managed service by Google Cloud.
+
+-> No infrastructure setup required.
+
+-> Natively integrates with Google Cloud services.
+
+Jenkins:
+=========
+
+-> Open-source and self-hosted.
+
+-> Requires manual setup and maintenance.
+
+-> Flexible and supports numerous plugins for customization.
+===============================================================================================================
+-> While both are build systems, Cloud Build is specific to Google Cloud, whereas Jenkins can run anywhere.
