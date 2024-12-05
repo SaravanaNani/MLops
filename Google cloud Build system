@@ -67,3 +67,24 @@ Jenkins:
 -> Flexible and supports numerous plugins for customization.
 ===============================================================================================================
 -> While both are build systems, Cloud Build is specific to Google Cloud, whereas Jenkins can run anywhere.
+=================================================================================================================
+
+Google App Engine Vs Build System:
+================================
+
+App Engine:
+
+-> Purpose: A platform for hosting and running your application in the cloud.
+
+-> Role: Provides a managed environment where your application can run without managing servers or infrastructure.
+
+-> Output: Hosts the live application for users to access.
+
+-> Example: Deploying a web app that users can interact with.
+
+=========================================================================================================
+In short:
+
+-> A build system prepares your app.[Produces artifacts like Docker images, binaries, or app packages ready for deployment.]
+
+-> App Engine runs your app after it’s ready.
