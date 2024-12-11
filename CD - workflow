@@ -1,0 +1,17 @@
+Here’s a simplified explanation of the Continuous Delivery workflow:
+
+-> Cloud-based Development: Developers often use cloud environments (e.g., AWS Cloud 9, GitHub Codespaces) to work in setups similar to production, ensuring consistency.
+
+-> Infrastructure as Code (IaC): Code and infrastructure definitions are pushed together. IaC defines all aspects of the cloud or Kubernetes environment and ensures changes are consistent.
+
+-> Build and Test: Code changes trigger automated builds and tests. If successful, the infrastructure is provisioned or updated.
+
+-> Idempotent IaC: IaC ensures changes happen only if needed (e.g., won’t recreate an existing resource unless modified).
+
+-> Environment Setup: IaC can create separate environments (e.g., staging for testing or production) as needed, allowing flexibility for updates or testing.
+
+-> Resource Cleanup or Expansion: IaC also simplifies resource cleanup or adding new resources.
+
+-> Controlled Deployments: Changes can be pushed to various environments (e.g., staging, production) without directly affecting production until reviewed.
+
+This process ensures safe, repeatable, and efficient delivery of updates.
