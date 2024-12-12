@@ -1,0 +1,13 @@
+Here’s a simple explanation with a real-world analogy:
+
+Static Data Example: Imagine a jar filled with red and black balls.
+                     As you draw more balls, you get a better understanding of the ratio of red to black because nothing is changing inside the jar.
+
+Dynamic Data (Data Drift): Now imagine the jar has a secret trapdoor, and a child is secretly adding new balls of random colors (red, black, or even blue) while you’re drawing. 
+                           This changes the ratio constantly, so no matter how many balls you pull, your earlier understanding becomes unreliable.
+
+Real-World Data Drift: In machine learning, data drift happens when the data used to train the model starts to change in the real world. 
+          
+          For example: a spam filter trained on old email patterns may fail as new spam techniques emerge.
+
+Solution: To handle data drift, you need to regularly retrain your model with updated data to keep it accurate and aligned with the current situation.
