@@ -1,0 +1,23 @@
+#Refer Flow differnce diagram
+
+Data Lake: Think of a messy storeroom filled with raw data—structured (like spreadsheets), unstructured (like PDFs), 
+           or streaming (like live IoT feeds). For instance, raw customer data from online purchases.
+
+Feature Store: This is like a refined pantry for ML models. 
+                You clean and process the messy data (e.g., extract customer spending habits, average order size), 
+                then store these reusable and high-quality "features" for training machine learning models.
+
+Example: Predicting customer churn uses clean features like "average time between orders" or "last order amount."
+
+Data Warehouse: It’s like a well-organized library for business reporting. Data here is clean and structured, 
+                but mainly used for dashboards or business intelligence.
+
+Example: Generating a monthly sales report or tracking regional performance trends.
+
+Key Difference:
+
+-> Feature Store = For AI/ML systems (training and prediction).
+
+-> Data Warehouse = For business insights (dashboards and reports).
+
+Both turn raw data into valuable insights but serve different purposes.
