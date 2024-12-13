@@ -1,0 +1,32 @@
+-> workflow of MLOps contains : -> Data Platform and Analytics System (gathers Data) 
+
+-> CI - MLops: Gatheed data -> Data pipeline -> Store in system -> Data clean Process -> Desired output verifed by expert -> deploy
+
+-> Best MLOps practice means -> Quality of model and outcome produced by model -> these 2 depends on Speed at which data can train and retain the model and 
+                                                                                  quality of data you feed your model
+
+=====================================================================================================================================
+
+CIRCLE - CI -> CI/CD Platform, well suited for MLOps Automation
+            -> It build Fully Byspoke pipelines, Performs almost any task in both magnaged and cloud hosted executipn Environment
+            -> It’s powered by Git, so your CI/CD pipelines integrate with your existing tools 
+            -> just add a CircleCI configuration file to your project, and you can start automating.
+=====================================================================================================================================
+
+TensorFlow Image recognition ML workflow:
+===========================================
+
+-> TensorFlow image recognition is a machine learning workflow where TensorFlow, a popular open-source library, is used to identify and classify objects within images. 
+
+-> It involves training a neural network on labeled image data to recognize patterns and features. Once trained, the model can predict labels for new, unseen images.
+
+=> A simple example of TensorFlow image recognition is a model trained to recognize different types of fruits.
+
+-> You provide a dataset with labeled images of apples, bananas, and oranges.
+
+-> The TensorFlow model learns to identify features like shape and color during training.
+
+-> When you show the model a new image of a fruit, it predicts whether it's an apple, banana, or orange based on the learned patterns.
+
+
+=====================================================================================================================================================================
