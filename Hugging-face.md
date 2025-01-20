@@ -1,3 +1,7 @@
+Here’s a simplified breakdown of Noah Gift's workflow for building and deploying a Hugging Face MLOps application with GitHub Actions:
+
+### Note: look the concept in coursera and practice
+
 # Step 1: Set Up Hugging Face
 
 ### Create a Hugging Face Account:
