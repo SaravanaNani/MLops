@@ -62,6 +62,7 @@ Create the following files:
 gradio
 transformers
 tensorflow
+tf-keras
 ```
 
 `Makefile:` Automate common tasks. 
@@ -94,6 +95,10 @@ demo.launch()
 
 ### 1. Set Up Repository Secrets:
 
+    - go to Hugging Face and Create a Access token with Write permission 
+
+    - Click on your profile -> Access tocken - > create token -> Tokern namd -> write(permiision)
+    
     - Go to GitHub → Repository → Settings → Secrets → Actions.
     
     - Add a secret named HUGGING_FACE_TOKEN and paste your Hugging Face access token.
